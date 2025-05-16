@@ -5,4 +5,4 @@ Purpose
 - Flagging any milestone RAGs that are Red or Amber
 - Highlighting any key milestones that may be overdue, delayed or at risk of missing their forecasted date
 
-Please feel free to take these and run with them. Make them your own and find your own insights
+![Screenshot1](/Images/Schedule_KPI_For_Portfolio_Screenshot.PNG)
