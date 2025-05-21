@@ -1,33 +1,18 @@
 # PowerApps Project Prioritisation & Resource Recovery Form
 
 ## Purpose
-- Track how the project's schedule is progressing against their forecasted dates
-- Flagging any milestone RAGs that are Red or Amber
-- Highlighting any key milestones that may be overdue, delayed or at risk of missing their forecasted date
-- Analyse the monthly trend of projects achieving their key milestones
-- Identify portfolio performance YTD and FY
+- Prioritise which projects resources should be working on
+- Determine whether certain resources should be retained or released after their contract expires
+- Analyse the projects that have been identified as either having an Under/Overspend, ensuring they have submitted a treatment plan to rectify the financial situation
 
-### High-Level Overview
-This is the landing/home page of the dashboard. This page gives a high-level overview of key metrics, YTD and FY milestone performance, a bar chart showing the state of the milestone RAG status, and two tables showinng how milestones are tracking on a sub-portfolio and project level. On the left-hand side, users are able to change the view the slicers, see a YTD or FY view and jump to a page called "Strategic Milestones Performance" showing the performance of Gold, Silver and Bronze milestones.
+### Home Page
+This is the portal's landing/home page, where it has been split into 4 quadrants: PIP (for Portfolio Prioritisation), RRF (for Resource Recovery), Under/Overspend (projects with above or below financial spend) and Admin (only for admins). The current view of the home page is an admin's view. The view changes depending on what kind of access level the user has been given.
 
 ![Screenshot1](/PowerApps%20Project%20Prioritisation%20Resource%20Recovery/Images/PowerApps_Screenshot3.PNG)
 
-### Project Drill-Through
-This report is accessed when users drill-down on a project from the Home Page. This allows users to see a detailed page about the project's schedule, the project's milestones statuses, high level metrics, key metadata from the PPM tool and their Baseline Delivery Ratio (rate of completed milestones). With this report, Project Managers can hone in on the areas where the risks and issues are, ensuring there is a reason for the delay in reaching their target date and their schedule is going to plan against their forecast.
+### Portfolio Resource Submission Form (RRF)
+This screen is accessed when the user has clicked on New RRF Form on the home page. On the first screenshot, the user would select a resource name in the top-left part of the screen, which would then auto-populate the smaller fields below it. The data is gathered from multiple sources that are prepared and linked to the app behind the scenes. On the second screenshot, users would then put the relevant commentary for each of the fields. Once that is done, it is submitted in preparation for the Forum, where key stakeholders discuss the best recommendation for the respective resource.
 
-![Screenshot2](/Schedule%20KPI%20-%20For%20Portfolio/Images/Schedule_KPI_For_Portfolio_Screenshot2.PNG)
+![Screenshot2](/PowerApps%20Project%20Prioritisation%20Resource%20Recovery/Images/PowerApps_Screenshot.PNG)
 
-### YTD & FY Performance (for Executives)
-This report is mainly used for Executives in meetings/forums to dicuss how the portfolio is performing. The metrics at the top are high-level metrics to understand the position of the portfolio, the Milestones due in the next 30 days table allows Executives to pre-empt what milestones may be at risk and need action and the Milestone Delayed table (sorted by Gold, Silver, Bronze) shows Executives the reasoning for the delay by hovering over the milestone and determine whether that is in-line to what their expectations are. 
-
-![Screenshot2](/Schedule%20KPI%20-%20For%20Portfolio/Images/Schedule_KPI_For_Portfolio_Screenshot3.PNG)
-
-### Baseline Delivery Ratio (BDR) Trend
-This page is dedicated to the month-on-month trend of the Baseline Delivery Ratio (BDR) which is the rate of completed milestones against their planned. The trend of the purple line is compared against the red dotted line which is the 90% target benchmark to indicate the position of the BDR for that month. This visual is used in meetings/formus as Executives like to see the trend over time as well as the small summary table below the graph.
-
-![Screenshot2](/Schedule%20KPI%20-%20For%20Portfolio/Images/Schedule_KPI_For_Portfolio_Screenshot4.PNG)
-
-### All Milestones Data Table
-This page is useful for users who would like to see the raw data for the current period and would like to extract the table to do their own investigation and analysis.
-
-![Screenshot2](/Schedule%20KPI%20-%20For%20Portfolio/Images/Schedule_KPI_For_Portfolio_Screenshot5.PNG)
+![Screenshot2](/PowerApps%20Project%20Prioritisation%20Resource%20Recovery/Images/PowerApps_Screenshot2.PNG)
